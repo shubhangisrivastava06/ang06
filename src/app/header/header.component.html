@@ -1,0 +1,17 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <div class="navbar">
+     <li><a href="#" (click)="onSelect('recipe')">Recipe</a></li>
+     <li><a href="#" (click)="onSelect('shopping-list')">Shopping List</a></li>
+      <div class="dropdown">
+        <button class="dropbtn" >Manage
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Save Data</a>
+          <a href="#">Fetch Data</a>
+        </div>
+      </div>
+    </div>
+</body>
